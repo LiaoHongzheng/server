@@ -767,6 +767,8 @@ table.dragshadow td.size {
 	.quota-container {
 		height: 5px;
 		border-radius: 3px;
+		/* show border for light theming colors */
+		border: 1px solid #ebebeb;
 
 		div {
 			height: 100%;
